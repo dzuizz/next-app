@@ -1,13 +1,73 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
 .main {
+  font-family: 'Sometype Mono', monospace;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
   min-height: 100vh;
 }
 
-.description {
+.container {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  min-height: 100vh;
+  max-width: 80%;
+}
+
+.introduction {
+  margin: 0 auto;
+}
+
+.introduction h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.introduction h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+}
+
+.introduction h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 0.2rem;
+  margin-top: 1.2rem;
+}
+
+.introduction p {
+  line-height: 1.5rem;
+}
+
+.introduction ul {
+  line-height: 1.5rem;
+  list-style: none;
+}
+
+.achievements {
+  margin: 0 auto;
+}
+
+.achievements .heading {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 2rem 0 1rem 0;
+}
+
+.achievements .item {
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+
+/* .description {
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
@@ -130,7 +190,6 @@
   z-index: -1;
 }
 
-/* Conic Gradient Animation */
 .thirteen::before {
   animation: 6s rotate linear infinite;
   width: 200%;
@@ -138,7 +197,6 @@
   background: var(--tile-border);
 }
 
-/* Inner Square */
 .thirteen::after {
   inset: 0;
   padding: 1px;
@@ -151,7 +209,6 @@
   background-clip: content-box;
 }
 
-/* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
     background: rgba(var(--card-rgb), 0.1);
@@ -172,6 +229,8 @@
     transform: none;
   }
 }
+
+*/
 
 /* Mobile */
 @media (max-width: 700px) {
@@ -250,7 +309,7 @@
   }
 }
 
-/* Tablet and Smaller Desktop */
+
 @media (min-width: 701px) and (max-width: 1120px) {
   .grid {
     grid-template-columns: repeat(2, 50%);

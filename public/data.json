@@ -1,0 +1,150 @@
+{
+    "contests": {
+	    "3MT": "Mini Mustang Math Tournament",
+	    "AIO": "Australian Informatics Olympiad",
+	    "AMC": "Australian Mathematics Olympiad",
+	    "AMO": "American Mathematics Olympiad",
+	    "BEBRAS": "International Challenge on Informatics and Computational Thinking",
+	    "DOKA": "Depth Of Knowledge Assesment",
+	    "DrCT": "Design Thinking with Robotics and Computational Thinking International Competition",
+	    "DrCT Global Finals": "Design Thinking with Robotics and Computational Thinking International Competition",
+	    "HCIC": "Hwa Chong Info-communications Challenge",
+	    "ICAS Science": "A Science Contest",
+	    "IJHS": "International Junior Honours Society",
+	    "IJMO": "International Junior Mathematical Olympiad",
+	    "iOS App Development with Swift Essential": "InfoTech",
+        "ISPE": "Islamic Studies Placement Examination",
+	    "Kumon ASHR English": "Advanced Student Honour Roll",
+	    "Kumon ASHR Mathematics": "Advanced Student Honour Roll",
+        "Accelerated Math": "Skipping Secondary 1 Math",
+        "MMT": "Mustang Math Tournament",
+	    "NMOS by NUS High School": "National Mathematical Olympiad of Singapore",
+        "PSLE": "Primary School Leaving Examination",
+	    "RIPMWC by Raffles Institution": "Raffles Institution Primary Mathematics World Contest",
+	    "SASMO": "Singapore and Asian Schools Mathematical Olympiad",
+	    "SEF": "Scholastic Environmental Fund - theme: 'Youth Taking Action to Prevent Negative Impact on Non-Human Environment in Singapore'",
+	    "SIMOC": "Singapore International Mathematics Olympiad Challenge",
+	    "SIMOC Math Master Mind": "Singapore International Mathematics Olympiad Challenge",
+	    "SIMOC Math Olympiad": "Singapore International Mathematics Olympiad Challenge",
+	    "SIMOC Mind Sports": "Singapore International Mathematics Olympiad Challenge",
+	    "Singa Global Final": "International Singapore Mathematics Competition",
+        "SJPO": "Singapore Junior Physics Olympiad",
+	    "SMKC": "Singapore Mathematical Kangaroo Contest",
+        "SMO Junior": "Singapore Math Olympiad Junior",
+	    "SMOPS by Hwa Chong Institution": "Singapore Mathematical Olympiad for Primary Schools",
+	    "Speech Academy Asia": "Series of Public Speaking",
+	    "VANDA": "International Science Competition",
+	    "VANDA Global Finals": "International Science Competition",
+	    "VANDA Global Final Team": "International Science Competition",
+	    "VANDA Global Final Individual": "International Science Competition",
+	    "VTMO": "Vietnam Titan Mathematical Olympiad",
+	    "YALA": "Young Achievers Learning Academy",
+	    "YALA CSP": "Young Achievers Learning Academy Community Support Project",
+	    "YALA Scholarship": "Young Achievers Learning Academy"
+    },
+    "achievements": [
+	    {
+            "year": "2023",
+            "grade": "Secondary 1",
+            "items": [
+                {"title": "AIO", "award": "GOLD", "ranking": "", "filename": "2023SMOJ.pdf"},
+                {"title": "SMO Junior", "award": "BRONZE", "ranking": "", "filename": "2023SMOJ.pdf"},
+                {"title": "SJPO", "award": "BRONZE", "ranking": "", "filename": "2023SJPO.pdf"},
+                {"title": "DrCT", "award": "GOLD", "ranking": "3rd in Singapore", "filename": ""},
+                {"title": "SASMO", "award": "GOLD", "ranking": "4th in Singapore", "filename": "2023SASMO.png"},
+                {"title": "SMKC", "award": "GOLD", "ranking": "1st Globally", "filename": "2023SMKC.png"},
+                {"title": "3MT", "award": "SILVER", "ranking": "2nd in Singapore", "filename": "20233MT.png"},
+                {"title": "Accelerated Math", "award": "MA2133", "ranking": "", "filename": ""}
+            ]
+        },
+	    {
+            "year": "2022",
+            "grade": "Primary 6",
+            "items": [
+                {"title": "PSLE", "award": "AL5", "ranking": "1st in School", "filename": ""},
+                {"title": "ISPE", "award": "MS", "ranking": "ممتاز شرف", "filename": ""},
+                {"title": "IJHS", "award": "PLATINUM", "ranking": ", Lifetime", "filename": "2022IJHS.pdf"},
+                {"title": "HCIC", "award": "PLATINUM", "ranking": "", "filename": "2022HCIC.pdf"},
+                {"title": "RIPMWC by Raffles Institution", "award": "DISTINCTION", "ranking": "Top 3% (97.45 percentile, Achievement Score 49%)", "filename": "2022RIPMWC.pdf"},
+                {"title": "SMOPS by Hwa Chong Institution", "award": "GOLD", "ranking": "", "filename": "2022SMOPS.pdf"},
+                {"title": "DrCT", "award": "GOLD", "ranking": "1st Globally", "filename": "2022DRCT.pdf"},
+                {"title": "BEBRAS", "award": "GOLD", "ranking": "1st in Singapore", "filename": "2022BEBRAS.pdf"},
+                {"title": "Singa Global Final", "award": "GOLD", "ranking": "", "filename": "2022SINGA.pdf"},
+                {"title": "VANDA", "award": "GOLD", "ranking": "", "filename": "2022VANDA.pdf"},
+                {"title": "SMKC", "award": "GOLD", "ranking": "", "filename": "2022SMKC.pdf"},
+                {"title": "SASMO", "award": "GOLD", "ranking": "", "filename": "2022SASMO.pdf"},
+                {"title": "MMT", "award": "SILVER", "ranking": "", "filename": ""}
+            ]
+        },
+        {
+            "year": "2021",
+            "grade": "Primary 5",
+            "items": [
+                {"title": "RIPMWC by Raffles Institution", "award": "HIGH DISTINCTION", "ranking": "estimated due to pandemic, 98 percentile, Achievement Score 50%", "filename": "2021RIPMWC.jpg"},
+                {"title": "NMOS by NUS High School", "award": "SILVER", "ranking": "", "filename": "2021NMOS.jpg"},
+                {"title": "SMOPS by Hwa Chong Institution", "award": "SILVER", "ranking": "", "filename": "2021SMOPS.jpg"},
+                {"title": "Kumon ASHR Mathematics", "award": "5 Years Ahead", "ranking": "", "filename": "2021KUMON.jpg"},
+                {"title": "SIMOC Math Olympiad", "award": "GOLD", "ranking": "", "filename": "2021SIMOC.pdf"},
+                {"title": "IJMO", "award": "GOLD", "ranking": "", "filename": ""},
+                {"title": "SASMO", "award": "GOLD", "ranking": "", "filename": "2021SASMO.jpg"},
+                {"title": "SMKC", "award": "GOLD", "ranking": "", "filename": "2021SMKC.pdf"},
+                {"title": "DrCT Global Finals", "award": "GOLD", "ranking": "1st Globally", "filename": "2021DRCTGF.PDF"},
+                {"title": "DrCT", "award": "GOLD", "ranking": "1st in Singapore and 2nd Globally", "filename": "2021DrCT.pdf"},
+                {"title": "VANDA", "award": "SILVER", "ranking": "", "filename": "2021VANDA.pdf"},
+                {"title": "VANDA Global Final Individual", "award": "BRONZE", "ranking": "", "filename": "2021VANDAGFINDIVIDUAL.PDF"},
+                {"title": "VANDA Global Final Team", "award": "BRONZE", "ranking": "", "filename": ""},
+                {"title": "AMC", "award": "DISTINCTION", "ranking": "", "filename": "2021AMC.pdf"},
+                {"title": "AMO", "award": "SILVER", "ranking": "1 incorrect answer", "filename": "2021AMO.pdf"},
+                {"title": "DOKA", "award": "DISTINCTION", "ranking": "", "filename": "2021DOKA.pdf"},
+                {"title": "YALA CSP", "award": "GOLD", "ranking": "1st place", "filename": "2021YALACSP.pdf"},
+                {"title": "YALA", "award": "Active Participation", "ranking": "", "filename": "2021YALA.pdf"},
+                {"title": "BEBRAS", "award": "BRONZE", "ranking": "", "filename": ""}
+            ]
+        },
+        {
+            "year": "2020",
+            "grade": "Primary 4",
+            "items": [
+                {"title": "SMKC", "award": "PERFECT SCORE", "ranking": "", "filename": "2020SMKC.jpg"},
+                {"title": "DOKA", "award": "HIGH DISTINCTION", "ranking": "", "filename": "2020DOKA.jpg"},
+                {"title": "AMC", "award": "DISTINCTION", "ranking": "", "filename": "2020AMC.jpg"},
+                {"title": "SASMO", "award": "GOLD", "ranking": "", "filename": "2020SASMO.jpg"},
+                {"title": "SIMOC Mind Sports", "award": "GOLD", "ranking": "", "filename": ""},
+                {"title": "SIMOC Math Olympiad", "award": "BRONZE", "ranking": "", "filename": "2020SIMOC.jpg"},
+                {"title": "SIMOC Math Master Mind", "award": "BRONZE", "ranking": "", "filename": ""},
+                {"title": "DrCT", "award": "SILVER", "ranking": "", "filename": "2020DrCT.jpg"},
+                {"title": "AMO", "award": "SILVER", "ranking": "", "filename": "2020AMO.jpg"},
+                {"title": "VANDA", "award": "BRONZE", "ranking": "", "filename": "2020VANDA.jpg"},
+                {"title": "VTMO", "award": "BRONZE", "ranking": "", "filename": "2020VTMO.jpg"},
+                {"title": "Kumon ASHR English", "award": "3 Years Ahead", "ranking": "", "filename": "2020KUMON.jpg"}
+            ]
+        },
+        {
+            "year": "2019",
+            "grade": "Primary 3",
+            "items": [
+                {"title": "YALA Scholarship", "award": "PLATINUM", "ranking": "", "filename": ""},
+                {"title": "SEF", "award": "GOLD", "ranking": "1st", "filename": "2019SEF.jpg"},
+                {"title": "BEBRAS", "award": "GOLD", "ranking": "2nd in Singapore", "filename": "2019BEBRAS.jpg"},
+                {"title": "SIMOC", "award": "GOLD", "ranking": "", "filename": "2019SIMOC.jpg"},
+                {"title": "SASMO", "award": "GOLD", "ranking": "", "filename": "2019SASMO.jpg"},
+                {"title": "SMKC", "award": "GOLD", "ranking": "", "filename": "2019SMKC.jpg"},
+                {"title": "AMO", "award": "GOLD", "ranking": "", "filename": "2019AMO.jpg"},
+                {"title": "AMC", "award": "DISTINCTION", "ranking": "", "filename": "2019AMC.jpg"},
+                {"title": "ICAS Science", "award": "DISTINCTION", "ranking": "", "filename": ""},
+                {"title": "iOS App Development with Swift Essential", "award": "Accomplishment", "ranking": "", "filename": "iOS.jpg"}
+            ]
+        },
+        {
+            "year": "2018",
+            "grade": "Primary 2",
+            "items": [
+                {"title": "SASMO", "award": "GOLD", "ranking": "", "filename": "2018SASMO.jpg"},
+                {"title": "SMKC", "award": "GOLD", "ranking": "", "filename": "2018SMKC.jpg"},
+                {"title": "SIMOC", "award": "SILVER", "ranking": "", "filename": "2018SIMOC.jpg"},
+                {"title": "AMO", "award": "SILVER", "ranking": "", "filename": "2018AMO.jpg"},
+                {"title": "Speech Academy Asia", "award": "Level 1", "ranking": "", "filename": ""}
+            ]
+        }
+    ]
+}
