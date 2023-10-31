@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import BackButton from '../components/BackButton';
 import styles from '@/styles/Games.module.css'
 
 export default function Games() {
@@ -11,31 +10,33 @@ export default function Games() {
             <Head>
                 <title>Games</title>
             </Head>
-            <BackButton destination="/" />
+            <Link href='/' className={styles.backButton}>
+                <span>Back</span>
+            </Link>
             <main className={styles.main}>
                 <ul className={styles.container}>
                     <li className={styles.card} style={{backgroundColor: colours[0]}}>
-                        <Link href="/">
+                        <Link href='/'>
                             <h1 style={{color: colours[0]}}>UTT</h1>
                         </Link>
                     </li>
                     <li className={styles.card} style={{backgroundColor: colours[1]}}>
-                        <Link href="/">
+                        <Link href='/'>
                             <h1 style={{color: colours[1]}}>Chess</h1>
                         </Link>
                     </li>
                     <li className={styles.card} style={{backgroundColor: colours[2]}}>
-                        <Link href="/">
+                        <Link href='/'>
                             <h1 style={{color: colours[2]}}>Ping Pong</h1>
                         </Link>
                     </li>
                     <li className={styles.card} style={{backgroundColor: colours[3]}}>
-                        <Link href="/">
+                        <Link href='/'>
                             <h1 style={{color: colours[3]}}>Rock Papers Scissors</h1>
                         </Link>
                     </li>
                     <li className={styles.card} style={{backgroundColor: colours[4]}}>
-                        <Link href="/">
+                        <Link href='/'>
                             <h1 style={{color: colours[4]}}>Misc.</h1>
                         </Link>
                     </li>
