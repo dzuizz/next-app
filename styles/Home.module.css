@@ -1,6 +1,5 @@
 .main {
     font-family: var(--font-mono);
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -13,10 +12,29 @@
     place-items: center;
     align-content: center;
     min-height: 100vh;
-    width: 80%;
+    width: 100%;
 }
 
-.link {
+.numbered_heading::before {
+    counter-increment: section;
+    content: "0" counter(section) ". ";
+    color: var(--accent-color)
+}
+
+.numbered_heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.numbered_heading::after {
+    display: block;
+    content: "";
+    height: 1px;
+    background-color: var(--accent-color);
+}
+
+.link,
+.view_cert {
     color: inherit;
     text-decoration: underline;
     text-underline-offset: 0.2rem;
@@ -25,36 +43,73 @@
     transition-duration: 150ms;
 }
 
-.link:hover, .link:active {
+.link:hover, .link:active,
+.view_cert:hover, .view_cert:active {
     text-underline-offset: 0.25rem;
 }
 
 /* Landing Page */
-.landing {
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.hero_text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 
-.landing h1 {
+.hero_text h1 {
     font-size: 4rem;
+    font-weight: 1000;
+    margin-bottom: 1rem;
+    color: transparent;
+    background: linear-gradient(90deg, rgb(121, 40, 202), rgb(255, 0, 128));
+    background-clip: text;
+}
+
+.hero_text h2 {
+    font-family: var(--font-mono);
+    font-size: 2rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    text-align: center;
 }
 
-.landing h2 {
-    font-size: 2rem;
-    font-weight: 400;
-    margin-bottom: 1rem;
+.hero_img {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.hero_img p {
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .hero {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero_text {
+        align-items: center;
+    }
+
+    .hero_img {
+        display: none;
+    }
+    
 }
 
 /* About Me */
 .introduction {
     display: flex;
     flex-direction: row;
+    width: 80%;
 }
 
 .biography h3 {
@@ -65,16 +120,21 @@
 .biography p {
     line-height: 1.5rem;
     margin-bottom: 1rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
 }
 
 .introduction ul {
     line-height: 1.5rem;
     list-style-type: none;
+    font-size: 1.2rem;
+    line-height: 2rem;
 }
 
 /* My Achievements */
 .achievements {
     margin: 0 auto;
+    width: 80%;
 }
 
 .achievements h3 {
@@ -90,7 +150,7 @@
 }
 
 .achievements .item {
-    line-height: 2rem;
+    line-height: 2.25rem;
     font-size: 1.2rem;
 }
 

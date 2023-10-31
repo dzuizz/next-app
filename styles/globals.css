@@ -1,46 +1,19 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
 :root {
-    
-    --grey-100: #f7fafc;
-    --grey-200: #edf2f7;
-    --grey-300: #e2e8f0;
-    --grey-400: #cbd5e0;
-    --grey-500: #a0aec0;
-    --grey-600: #718096;
-    --grey-700: #4a5568;
-    --grey-800: #2d3748;
-    --grey-900: #1a202c;
-
-    --blue-100: #ebf8ff;
-    --blue-200: #bee3f8;
-    --blue-300: #90cdf4;
-    --blue-400: #63b3ed;
-    --blue-500: #4299e1;
-    --blue-600: #3182ce;
-    --blue-700: #2b6cb0;
-    --blue-800: #2c5282;
-    --blue-900: #2a4365;
-
     --font-mono: 'Sometype Mono', monospace;
+    --font-poppins: 'Poppins', sans-serif;
     /* --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
         'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-        'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace; */
+        'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+    */
 
-    --accent-color: #1e96fc;
-
-    --foreground-rgb: 0, 0, 0;
-    --background-start-rgb: 214, 219, 220;
-    --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --foreground-rgb: 255, 255, 255;
-        --background-start-rgb: 0, 0, 0;
-        --background-end-rgb: 0, 0, 0;
-    }
+    --text-color: #CCCFD7;
+    --bg-color: #080A0C;
+    --primary-color: #C2E0FF;
+    --secondary-color: #99CCFF;
+    --accent-color: #940000;
 }
 
 * {
@@ -54,16 +27,14 @@ body {
     font-size: 16px;
     max-width: 100vw;
     min-height: 100vh;
+
+    counter-reset: section;
 }
 
 body {
-    color: rgb(var(--foreground-rgb));
-    background: linear-gradient(
-        to bottom,
-        transparent,
-        rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    font-family: var(--font-poppins);
+    background: var(--bg-color);
+    color: var(--text-color);
 }
 
 /* Awards Colouring */
