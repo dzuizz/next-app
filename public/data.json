@@ -146,5 +146,38 @@
                 {"title": "Speech Academy Asia", "award": "Level 1", "ranking": "", "filename": ""}
             ]
         }
-    ]
+    ],
+    "algorithms": {
+        "segment-tree": {
+            "title": "Segment Tree",
+            "tags": ["data-structure"],
+            "desc": "Segment Tree is a data structure most commonly used for range queries. It is a binary tree where each node represents an interval. The root node represents the entire array. The left and right child of a node represents the left and right half of the array respectively. The leaf nodes represent the elements of the array. Each node stores the result of some query on its interval. The query can be any associative function, such as sum, minimum, maximum, etc. The segment tree allows us to perform queries on any interval in O(log n) time.",
+            "code": "segment-tree.cpp"
+        },
+        "fenwick-tree": {
+            "title": "Fenwick Tree",
+            "tags": ["data-structure"],
+            "desc": "",
+            "code": "fenwick-tree.cpp"
+        },
+
+        "dijkstra": {
+            "title": "Dijkstra's Algorithm",
+            "tags": ["graph"],
+            "desc": "",
+            "code": "dijkstra.cpp"
+        },
+        "floyd-warshall": {
+            "title": "Floyd-Warshall Algorithm",
+            "tags": ["graph"],
+            "desc": "",
+            "code": "floyd-warshall.cpp"
+        },
+        "kruskal": {
+            "title": "Kruskal's Algorithm",
+            "tags": ["graph"],
+            "desc": "",
+            "code": "kruskal.cpp"
+        }
+    }
 }
