@@ -29,37 +29,58 @@
     text-underline-offset: 0.25rem;
 }
 
-.introduction h1 {
-    font-size: 3rem;
+/* Landing Page */
+.landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.landing h1 {
+    font-size: 4rem;
     font-weight: 600;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
-.introduction h2 {
-    font-size: 1.5rem;
+.landing h2 {
+    font-size: 2rem;
     font-weight: 400;
     margin-bottom: 1rem;
-    margin-top: -1rem;
 }
 
-.introduction h3 {
-    font-size: 1.2rem;
-    font-weight: 400;
-    margin-bottom: 0.2rem;
-    margin-top: 1.2rem;
+/* About Me */
+.introduction {
+    display: flex;
+    flex-direction: row;
 }
 
-.introduction p {
+.biography h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.biography p {
     line-height: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .introduction ul {
     line-height: 1.5rem;
-    list-style: none;
+    list-style-type: none;
 }
 
+/* My Achievements */
 .achievements {
     margin: 0 auto;
+}
+
+.achievements h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 2rem 0 1rem 0;
 }
 
 .achievements .heading {
@@ -73,6 +94,7 @@
     font-size: 1.2rem;
 }
 
+/* Projects */
 .projects {
     display: flex;
     width: 100%;
