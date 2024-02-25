@@ -2,14 +2,11 @@ import styles from "@/styles/Home.module.css";
 import Head from "next/head";
 import Link from "next/link";
 import Script from "next/script";
-import data from "../public/data.json";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Achievements from "./components/Achievements";
 
 export default function Home() {
-  const { contests, achievements } = data;
-
   return (
     <>
       <Head>
@@ -43,7 +40,7 @@ export default function Home() {
       <main className="flex min-h-screen flex-col">
         <Navbar />
         <About />
-        <Achievements contests={contests} achievements={achievements} />
+        <Achievements />
 
         {/* Social Links */}
         <Link

@@ -1,7 +1,10 @@
 import Link from "next/link";
 import styles from "@/styles/components/Achievements.module.css";
+import data from "../../public/data.json";
 
-export default function Achievement({ contests, achievements }) {
+export default function Achievement() {
+  const { contests, achievements } = data;
+
   return (
     <section id="Achievements" className={styles.Achievements}>
       <h1>2. Achievements</h1>
