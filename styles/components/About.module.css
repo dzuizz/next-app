@@ -1,0 +1,43 @@
+.About {
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    align-content: center;
+    width: 100%;
+    min-height: 100vh;
+    gap: 2rem;
+    padding: 4rem;
+}
+
+.About h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+}
+
+.About h1::after {
+    display: block;
+    content: "";
+    height: 1px;
+    background-color: var(--accent-color);
+}
+
+.About img {
+    border-radius: 1rem;
+}
+
+.About a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: var(--accent-color);
+    text-underline-offset: 0.25rem;
+    text-decoration-thickness: 0.15rem;
+    transition-duration: 150ms;
+}
+
+.About a:hover,
+.About a:active {
+    text-underline-offset: 0.5rem;
+}
