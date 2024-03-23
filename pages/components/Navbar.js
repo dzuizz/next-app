@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="bg-bg fixed flex w-full flex-row justify-between px-12 py-5">
+    <nav className="bg-bg fixed flex w-full flex-row justify-between px-12 py-5 z-50">
       <Link className="text-2xl font-semibold" href="/">
         AHMAD DZUIZZ
       </Link>
