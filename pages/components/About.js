@@ -1,25 +1,38 @@
 import Link from "next/link";
 import Image from "next/image";
-import styles from "@/styles/components/About.module.css";
 
 export default function About() {
   return (
-    <section id="About" className={styles.About}>
+    <section
+      id="About"
+      className="flex min-h-screen w-full flex-row place-items-center content-center gap-8 p-16"
+    >
       <Image
-        src="/dzuizz.jpg"
+        className="rounded-2xl"
+        src="/images/dzuizz.jpg"
         width={500}
         height={500}
         alt="Picture of Ahmad Dzuizz Annajib"
       ></Image>
       <div>
-        <h1>1. About Me</h1>
+        <h1 className="text-primary after:bg-accent mb-8 text-5xl font-semibold leading-normal after:block after:h-px">
+          About Me
+        </h1>
         <article>
           Hi, I'm Dzuizz! A secondary 1 student at{" "}
-          <Link href="https://www.nushigh.edu.sg" target="_blank">
+          <Link
+            className="decoration-accent underline decoration-2 underline-offset-4 duration-150 hover:underline-offset-8 active:underline-offset-8"
+            href="https://www.nushigh.edu.sg"
+            target="_blank"
+          >
             NUS High School of Math and Science
           </Link>
           , and alumni of{" "}
-          <Link href="https://www.irsyad.sg" target="_blank">
+          <Link
+            className="decoration-accent underline decoration-2 underline-offset-4 duration-150 hover:underline-offset-8 active:underline-offset-8"
+            href="https://www.irsyad.sg"
+            target="_blank"
+          >
             Madrasah Irsyad Zuhri Al-Islamiah
           </Link>
           . <br />
@@ -28,10 +41,11 @@ export default function About() {
           <br />
           <br />
           Here are some of my coding profiles:
-          <ul>
+          <ul className="ml-4 list-disc">
             <li>
-              {"> Codebreaker - "}
+              Codebreaker -{" "}
               <Link
+                className="decoration-accent underline decoration-2 underline-offset-4 duration-150 hover:underline-offset-8 active:underline-offset-8"
                 href="https://codebreaker.xyz/profile/dzuizz"
                 target="_blank"
               >
@@ -39,8 +53,9 @@ export default function About() {
               </Link>
             </li>
             <li>
-              {"> Codeforces - "}
+              Codeforces -{" "}
               <Link
+                className="decoration-accent underline decoration-2 underline-offset-4 duration-150 hover:underline-offset-8 active:underline-offset-8"
                 href="https://codeforces.com/profile/dzuizz"
                 target="_blank"
               >
@@ -48,14 +63,22 @@ export default function About() {
               </Link>
             </li>
             <li>
-              {"> Kattis - "}
-              <Link href="https://open.kattis.com/users/dzuizz" target="_blank">
+              Kattis -{" "}
+              <Link
+                className="decoration-accent underline decoration-2 underline-offset-4 duration-150 hover:underline-offset-8 active:underline-offset-8"
+                href="https://open.kattis.com/users/dzuizz"
+                target="_blank"
+              >
                 open.kattis.com/users/dzuizz
               </Link>
             </li>
             <li>
-              {"> Github - "}
-              <Link href="https://github.com/dzuizz" target="_blank">
+              Github -{" "}
+              <Link
+                className="decoration-accent underline decoration-2 underline-offset-4 duration-150 hover:underline-offset-8 active:underline-offset-8"
+                href="https://github.com/dzuizz"
+                target="_blank"
+              >
                 github.com/dzuizz
               </Link>
             </li>

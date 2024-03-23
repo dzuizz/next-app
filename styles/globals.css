@@ -2,24 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&display=swap");
-
-:root {
-    --font-mplus: "M PLUS 1 Code", monospace;
-
-    --text-color: #cccfd7;
-    --bg-color: #111827;
-    --primary-color: #c2e0ff;
-    --secondary-color: #99ccff;
-    --accent-color: #940000;
-}
-
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 
-    font-family: var(--font-mplus);
+    font-family: var(--font-mplus-1);
 }
 
 html,
@@ -29,12 +17,7 @@ body {
     overflow-x: hidden;
 }
 
-body {
-    background: var(--bg-color);
-    color: var(--text-color);
-}
-
-/* Achievements Award Colours */
+/* ACHIEVEMENT AWARD COLOURS */
 
 .BRONZE {
     color: #cd7f32;
